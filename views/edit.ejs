@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/EDIT/CSS/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="header-links">
+        <div class="header-redirects">
+            <a href="/main"><img class="arrow-back" src="/EDIT/IMG/arrow-back.png" alt="arrow"></a>
+            <img class="logo" src="/EDIT/IMG/logo.png" alt="logo">
+        </div>
+    </section>
+    <section>
+        <div class="title-div">
+            <p id="title-page">Edit your NFT</p>
+        </div>
+    </section>
+    <section class="forms">
+        <div class="nft-example">
+            <img src=<%= nft.image_url %> alt="">
+            <p><%= nft.name %></p>
+        </div>
+
+        <form id="register-form">
+            <input id="name" name="name" type="text" placeholder="Insert NFT Name"></br>
+            <input id="colletion" name="colletion" type="text" placeholder="Insert NFT Colletion" value=<%= nft.colletion %> required></br> 
+            <input id="price" name="price" type="number" required name="price" min="0" step="any" placeholder="Insert NFT Price" value=<%= nft.price %> ></br>
+            <input id="url" name="image_url" type="text" placeholder="Insert NFT Image URL" value=<%= nft.image_url %> required></br>
+            <button class="btn" onclick="teste()">Save</button>
+        </form>
+    </section>
+    <script src="/EDIT/JS/script.js"></script>
+</body>
+</html>

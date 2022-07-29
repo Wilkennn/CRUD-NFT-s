@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/REGISTER/CSS/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="header-links">
+        <div class="header-redirects">
+            <a href="/main"><img class="arrow-back" src="/REGISTER/IMG/arrow-back.png" alt="arrow"></a>
+            <img class="logo" src="/REGISTER/IMG/logo.png" alt="logo">
+        </div>
+    </section>
+    <section>
+        <div class="title-div">
+            <p id="title-page">Register your NFT</p>
+        </div>
+    </section>
+    <section class="forms">
+        <div class="nft-example">
+            <img src="/REGISTER/IMG/Frame.png" alt="">
+        </div>
+        <form id="register-form" action="/main" method="post">
+            <input id="name" name="name" type="text" placeholder="Insert NFT Name" required></br>
+            <input id="colletion" name="colletion" type="text" placeholder="Insert NFT Colletion" required></br> 
+            <input id="price" name="price" type="number" required name="price" min="0" value="" step="any" placeholder="Insert NFT Price"></br>
+            <input id="url" name="image_url" type="text" placeholder="Insert NFT Image URL" required></br>
+            <button class="btn">Submit</button>
+        </form>
+    </section>
+</body>
+</html>

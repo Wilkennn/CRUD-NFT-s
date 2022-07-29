@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #282828;
+}
+
+#conteiner{
+    position: relative;
+    width: 70%;
+    height: 80vh;
+    margin-top: 5%;
+    margin-left: 14.5%;
+    margin-right: 15%;
+
+    display: flex;
+}
+
+#image-login{
+    height:  80vh;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    width: 75vh;
+    margin-left: -1rem;
+    border-radius: 1rem 0 0 1rem;
+    background-color: white;
+}
+
+#logins{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin-left: 14rem;
+}
+
+form img{
+    position: absolute;;
+    width: 8vh;
+    margin-top: 1rem;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-left: 1.5rem;
+    margin-top: 5rem;
+}
+
+.title p{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.fields{
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: 9.5rem;
+}
+
+.fields p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
+    position: absolute;
+    right: 0;
+}
+
+.fields a{
+    color: blue;
+    cursor: pointer;
+}
+
+
+input{
+    width: 60vh;
+    height: 7vh;
+    box-sizing: 2,2rem;
+    margin-bottom: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    padding-left: 1rem;
+    border-radius: 4vh;
+}
+
+
+button{
+    width: 63vh;
+    height: 9vh;
+    position: relative;
+    background-color: #2B2D2F;
+    color: #FF2261;
+    border: none;
+    border-radius: 4vh;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
+    font-weight: 900;
+    font-style: oblique;
+    margin-top: 1.7rem;
+}
